@@ -1,0 +1,276 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APN_enter	gsm_gprs.c	/^        int APN_enter(GPRS_SET *settings)$/;"	f
+AT_commands	gsm_gprs.c	/^        int AT_commands(GPRS_SET *settings)$/;"	f
+Battery	battery.c	/^int Battery (unsigned int flag)$/;"	f
+CC	Makefile	/^CC=arm-none-linux-gnueabi-gcc   $/;"	m
+CONNECTED	ppp_api.c	25;"	d	file:
+Communication	communication.c	/^int Communication()$/;"	f
+Console_menu	console.c	/^int Console_menu( void )  $/;"	f
+Date_setting	setup.c	/^int Date_setting(struct tm *curt)$/;"	f
+Display	lcd.c	/^int Display (unsigned int flag)$/;"	f
+Download_images_rs232	local.c	/^int Download_images_rs232(void)$/;"	f
+Download_images_usbb	local.c	/^int Download_images_usbb (void)$/;"	f
+Download_menu	download.c	/^int Download_menu( void )  $/;"	f
+Dwnd_ke_ra_ap	remote.c	/^int Dwnd_ke_ra_ap(int arg)$/;"	f
+ERROR	gsm_gprs.c	3;"	d	file:
+ETHERNET	remote.c	/^ enum comm_type{ETHERNET=1,GPRS}ctype; $/;"	e	enum:comm_type	file:
+Exec_Modem_command	V91Modem.c	/^int Exec_Modem_command(char *command,char *response,int timeout)$/;"	f
+Exec_Modem_command	modem.c	/^int Exec_Modem_command(char *command,char *response,int timeout)$/;"	f
+GET_file_clear	pppcomm.c	/^int GET_file_clear(char *http_url, char *filename)$/;"	f
+GPRS	remote.c	/^ enum comm_type{ETHERNET=1,GPRS}ctype; $/;"	e	enum:comm_type	file:
+GPRS_SET	gsm_gprs.c	/^               } GPRS_SET;$/;"	t	typeref:struct:__anon1	file:
+GPRS_dial	gsm_gprs.c	/^int GPRS_dial(GPRS_SET *settings)$/;"	f
+GPRS_test	gsm_gprs.c	/^     int GPRS_test(GPRS_SET *settings)$/;"	f
+GPRS_timeout	gsm_gprs.c	/^int GPRS_timeout(GPRS_SET *settings)$/;"	f
+IDIR	Makefile	/^IDIR=..\/include\/$/;"	m
+IPADDR	wifi.c	/^char IPADDR[30]="";$/;"	v
+IPADR	ethernet.c	/^ char IPADR[30]="";$/;"	v
+Ifd_test	ifd.c	/^Ifd_test() $/;"	f
+Ir	irda.c	/^int Ir(void)$/;"	f
+KEYA	rfid.c	2;"	d	file:
+KEYB	rfid.c	3;"	d	file:
+Keypad_test	keypad.c	/^int Keypad_test (void)$/;"	f
+LDIR	Makefile	/^LDIR= -L ..\/lib\/  -lGL14epos$/;"	m
+Local_test	local.c	/^int Local_test (void)$/;"	f
+Log_save	log.c	/^int Log_save()$/;"	f
+MODEMPORT	ppp_api.c	/^}MODEMPORT;$/;"	t	typeref:struct:__anon4	file:
+Machineid	machineid.c	/^int Machineid  (void)$/;"	f
+MagHead_test	magnetic_head.c	/^int MagHead_test()$/;"	f
+ModemOpen	V91Modem.c	/^int ModemOpen ( char *portname)$/;"	f
+ModemOpen	modem.c	/^int ModemOpen ( char *portname)$/;"	f
+Modem_timeout_flag	V91Modem.c	/^sig_atomic_t Modem_timeout_flag=0;$/;"	v
+Modem_timeout_flag	modem.c	/^sig_atomic_t Modem_timeout_flag=0;$/;"	v
+Modemclose	V91Modem.c	/^int Modemclose(void)$/;"	f
+Modemclose	modem.c	/^int Modemclose(void)$/;"	f
+Modemfd	V91Modem.c	/^int Modemfd;$/;"	v
+Modemfd	modem.c	/^int Modemfd;$/;"	v
+NOTCONNECTED	ppp_api.c	24;"	d	file:
+NW_registration	gsm_gprs.c	/^ int NW_registration()$/;"	f
+NW_signal_strength	gsm_gprs.c	/^    int  NW_signal_strength()$/;"	f
+OBJS	Makefile	/^OBJS=main_menu.o scroll_menu.o lcd.o keypad.o setup.o battery.o print.o  usb.o download.o console.o local.o massstorage.o machineid.o jffs2.o version.o rfid.o communication.o ethernet.o gsm_gprs.o  wifi.o ppp_api.o pppcomm.o  V91Modem.o remote.o sdcard.o    imagesinfo.o usb_test.o    barcode.o  magnetic_head.o   sam.o ifd.o  audio.o log.o irda.o$/;"	m
+PPP_SET_FLAG	pppcomm.c	/^unsigned char PPP_SET_FLAG=0;$/;"	v
+Printer_test	print.c	/^ int Printer_test(void)$/;"	f
+RLen	ifd.c	/^int RLen;$/;"	v
+RLen	sam.c	/^int RLen;$/;"	v
+Remote_test	remote.c	/^ int  Remote_test()$/;"	f
+SUCCESS	gsm_gprs.c	4;"	d	file:
+Setup_menu	setup.c	/^int Setup_menu (void)$/;"	f
+TEST	ppp_api.c	59;"	d	file:
+TIMEOUT	pppcomm.c	23;"	d	file:
+Test_modem_response	V91Modem.c	/^int Test_modem_response(char *command,char *response,char *expect[],int timeout)$/;"	f
+Test_modem_response	modem.c	/^int Test_modem_response(char *command,char *response,char *expect[],int timeout)$/;"	f
+Test_modem_response_without_signal	V91Modem.c	/^int Test_modem_response_without_signal(char *command,char *response,char *expect[],int timeout)$/;"	f
+Test_modem_response_without_signal	modem.c	/^int Test_modem_response_without_signal(char *command,char *response,char *expect[],int timeout)$/;"	f
+alarm_handler	ppp_api.c	/^void alarm_handler (int signum)$/;"	f
+apnnum	gsm_gprs.c	/^                 char apnnum[32];$/;"	m	struct:__anon1	file:
+arr1	ethernet.c	/^ char arr1[50]="";$/;"	v
+arr2	ethernet.c	/^ char arr2[50]="";$/;"	v
+arr3	ethernet.c	/^ char arr3[50]="";$/;"	v
+arr4	ethernet.c	/^ char arr4[50]="";$/;"	v
+arr5	ethernet.c	/^ char arr5[50]="";$/;"	v
+arr6	ethernet.c	/^ char arr6[50]="";$/;"	v
+audio_test	audio.c	/^int audio_test (void)$/;"	f
+autobuf	main_menu.c	/^char autobuf[80];$/;"	v
+autoflag	lcd.c	/^unsigned int autoflag=0;$/;"	v
+backlight_Intensity	lcd.c	/^int backlight_Intensity(void)$/;"	f
+backlight_Time	lcd.c	/^int backlight_Time ( void )           \/\/ backlight testing$/;"	f
+bkl_intensity	lcd.c	/^static unsigned char intensity=23,bkl_intensity=3;	\/\/default value$/;"	v	file:
+block_bmp	block.c	/^unsigned char block_bmp[]=$/;"	v
+block_bmp	print.c	/^unsigned char block_bmp[]=$/;"	v
+bmpprint_test	print.c	/^  int bmpprint_test(void)$/;"	f
+bootloader_details	imagesinfo.c	/^int bootloader_details( char *data)$/;"	f
+card_select	sam.c	/^int card_select(int sel)$/;"	f
+card_select1	ifd.c	/^int card_select1(int sel)$/;"	f
+chk_date	setup.c	/^int chk_date (char *str)$/;"	f
+chk_time	setup.c	/^int chk_time (char *str)$/;"	f
+chr	sdcard.c	/^char chr[30]="";$/;"	v
+comm_type	remote.c	/^ enum comm_type{ETHERNET=1,GPRS}ctype; $/;"	g	file:
+command	gsm_gprs.c	/^                 char command[32];$/;"	m	struct:__anon1	file:
+command1	gsm_gprs.c	/^		 char command1[32];$/;"	m	struct:__anon1	file:
+config_buf	ppp_api.c	/^char config_buf[255]= "" ;$/;"	v
+connect_test	wifi.c	/^int connect_test()$/;"	f
+contrast	lcd.c	/^int contrast(void)   \/\/ Other options$/;"	f
+copy_file	log.c	/^int copy_file (char *dest,char *src)$/;"	f
+cpuid	log.c	/^char cpuid[20]="";$/;"	v
+ctype	remote.c	/^ enum comm_type{ETHERNET=1,GPRS}ctype; $/;"	v	typeref:enum:comm_type
+curl_gprs_test	gsm_gprs.c	/^int curl_gprs_test(char *file_name)$/;"	f
+curl_test	ethernet.c	/^int curl_test()$/;"	f
+decrease_intensity	lcd.c	/^int decrease_intensity(void)$/;"	f
+decrement_contrast	lcd.c	/^int decrement_contrast(void)$/;"	f
+dial_buf	ppp_api.c	/^char dial_buf[255] = "" ;$/;"	v
+display_rtc	setup.c	/^int display_rtc(struct tm *intim)$/;"	f
+download_application_rs232	local.c	/^int download_application_rs232 (void)$/;"	f
+download_application_usbb	local.c	/^int download_application_usbb (void)$/;"	f
+download_jffs2_usbb	local.c	/^int download_jffs2_usbb(void)$/;"	f
+download_kernel_rs232	local.c	/^ int download_kernel_rs232(void) $/;"	f
+download_kernel_usbb	local.c	/^int download_kernel_usbb (void)$/;"	f
+download_ramdisk_rs232	local.c	/^ int download_ramdisk_rs232 (void)$/;"	f
+download_ramdisk_usbb	local.c	/^ int download_ramdisk_usbb (void)$/;"	f
+enter_IMEI_number	gsm_gprs.c	/^  int enter_IMEI_number()$/;"	f
+err_printf	pppcomm.c	17;"	d	file:
+ethernet	ethernet.c	/^int ethernet()$/;"	f
+ethernet_remote	remote.c	/^int ethernet_remote(void)$/;"	f
+ethernet_test	ethernet.c	/^int ethernet_test()$/;"	f
+ethtype	ethernet.c	/^ char ethtype[30]="eth0";$/;"	v
+exec_modem_comm_without_signal	V91Modem.c	/^int exec_modem_comm_without_signal(char *command,char *response,int timeout)$/;"	f
+exec_modem_comm_without_signal	modem.c	/^int exec_modem_comm_without_signal(char *command,char *response,int timeout)$/;"	f
+find_partition	sdcard.c	/^int find_partition()$/;"	f
+font_test	print.c	/^   int font_test(void)$/;"	f
+ftpdown_ke_ra_ap	remote.c	/^int ftpdown_ke_ra_ap()$/;"	f
+get_IMEI_number	log.c	/^int get_IMEI_number( char* imei)$/;"	f
+get_gateway	ethernet.c	/^int   get_gateway(void)$/;"	f
+get_ip	ethernet.c	/^int get_ip()$/;"	f
+get_mac_id	ethernet.c	/^int get_mac_id(int var )$/;"	f
+get_macid	log.c	/^int  get_macid( char* macid )$/;"	f
+get_pri_dns	ethernet.c	/^int  get_pri_dns()$/;"	f
+get_sec_dns	ethernet.c	/^int  get_sec_dns()$/;"	f
+get_subnet	ethernet.c	/^int get_subnet(int var)$/;"	f
+getmachid	log.c	/^int getmachid(char machid[])$/;"	f
+gett_ip	gsm_gprs.c	/^   int gett_ip()$/;"	f
+gprs_ppp_test	gsm_gprs.c	/^int gprs_ppp_test ( void )$/;"	f
+gprs_registration	gsm_gprs.c	/^        int gprs_registration()$/;"	f
+gprsip	gsm_gprs.c	/^char gprsip[50]="";$/;"	v
+gsm_gprs	gsm_gprs.c	/^int gsm_gprs() \/\/ Gsm-Gprs Main Menu$/;"	f
+gsm_gprs_remote	gsm_gprs.c	/^ int gsm_gprs_remote ()$/;"	f
+gsm_model_identification	gsm_gprs.c	/^  int gsm_model_identification()$/;"	f
+gsm_test	gsm_gprs.c	/^ int gsm_test (void)$/;"	f
+handle	ppp_api.c	/^  int handle;$/;"	m	struct:__anon4	file:
+hwid	machineid.c	/^int hwid()$/;"	f
+i	ifd.c	/^int i;$/;"	v
+i	sam.c	/^int i;$/;"	v
+increase_intensity	lcd.c	/^int increase_intensity(void)$/;"	f
+increment_contrast	lcd.c	/^int increment_contrast(void)$/;"	f
+intensity	lcd.c	/^static unsigned char intensity=23,bkl_intensity=3;	\/\/default value$/;"	v	file:
+ip_chk	ethernet.c	/^int ip_chk()$/;"	f
+ip_chk_t	wifi.c	/^int ip_chk_t()$/;"	f
+ip_config	ethernet.c	/^int ip_config(void)$/;"	f
+jffs2_download_rs232	local.c	/^int jffs2_download_rs232 (void)$/;"	f
+jffs2_download_usbb	local.c	/^int jffs2_download_usbb (void)$/;"	f
+jffs2_test	jffs2.c	/^int jffs2_test(void)$/;"	f
+jffs2_upload_download_rs232	local.c	/^int jffs2_upload_download_rs232(void)$/;"	f
+jffs2_upload_rs232	local.c	/^int jffs2_upload_rs232 (void)$/;"	f
+jffs2_upload_usbb	local.c	/^int jffs2_upload_usbb(void)$/;"	f
+jffs_mount_test	jffs2.c	/^int jffs_mount_test ( void )$/;"	f
+kernel_details	imagesinfo.c	/^int kernel_details (char *data)$/;"	f
+kp	keypad.c	/^static int kp = 1;$/;"	v	file:
+log_time	log.c	/^int log_time(struct tm *intim,char * tim,char *dat)$/;"	f
+logo	lcd.c	/^unsigned  char logo []={$/;"	v
+logoload	lcd.c	/^int logoload()                  $/;"	f
+lsb	ifd.c	/^     unsigned char lsb;  \/\/datalen lower byte.$/;"	m	struct:__anon2::__anon3	file:
+lsb	sam.c	/^		unsigned char lsb;  \/\/datalen lower byte.$/;"	m	struct:__anon5::__anon6	file:
+main	main_menu.c	/^int main (void)$/;"	f
+main	test.c	/^int main(void)$/;"	f
+mass_storage	massstorage.c	/^int  mass_storage ( void )$/;"	f
+modem_close	ppp_api.c	/^int modem_close()$/;"	f
+modem_config	ppp_api.c	/^char *  modem_config (char *cmd )$/;"	f
+modem_dial	ppp_api.c	/^int modem_dial (const char *phno)$/;"	f
+modem_disconnect	ppp_api.c	/^int  modem_disconnect (void)$/;"	f
+modem_open	ppp_api.c	/^int modem_open()$/;"	f
+modem_rx_data	ppp_api.c	/^int modem_rx_data (unsigned char *rxbuf, int rx_buf_len)$/;"	f
+modem_termios	ppp_api.c	/^struct termios modem_termios;$/;"	v	typeref:struct:termios
+modem_timeout_handler	V91Modem.c	/^void modem_timeout_handler(int signum,siginfo_t* sinfo,void *ctxt)$/;"	f
+modem_timeout_handler	modem.c	/^void modem_timeout_handler(int signum,siginfo_t* sinfo,void *ctxt)$/;"	f
+modem_tx_data	ppp_api.c	/^int modem_tx_data (unsigned char *txbuf , int tx_buf_len)$/;"	f
+modemport	ppp_api.c	/^MODEMPORT modemport;                                                                                      $/;"	v
+module	main_menu.c	/^static int module=0;$/;"	v	file:
+module_test	wifi.c	/^int module_test()$/;"	f
+motor_test	print.c	/^  int motor_test(void)$/;"	f
+mountcmnd	sdcard.c	/^char mountcmnd[50]="";$/;"	v
+msb	ifd.c	/^     unsigned char msb;  \/\/datalen higher byte.$/;"	m	struct:__anon2::__anon3	file:
+msb	sam.c	/^		unsigned char msb;  \/\/datalen higher byte.$/;"	m	struct:__anon5::__anon6	file:
+n	wifi.c	/^static int n=10;$/;"	v	file:
+numofscroll	log.c	/^int ramdisk_type;short numofscroll=0;$/;"	v
+paperstatus_test	print.c	/^  int paperstatus_test(void)$/;"	f
+parse	keypad.c	/^int parse(int abc[20],char *pre[20])$/;"	f
+password	gsm_gprs.c	/^                 char password[32];$/;"	m	struct:__anon1	file:
+phnum	gsm_gprs.c	/^                 char phnum[32];$/;"	m	struct:__anon1	file:
+ping_test	wifi.c	/^int ping_test()$/;"	f
+pinpadid	machineid.c	/^int pinpadid (void)$/;"	f
+png_test	ethernet.c	/^int  png_test(void)$/;"	f
+pos	main_menu.c	/^unsigned char pos=0;$/;"	v
+ppp_close	ppp_api.c	/^void ppp_close()$/;"	f
+ppp_dial_update	ppp_api.c	/^int ppp_dial_update(char *dialno,char *gprsdomain)$/;"	f
+ppp_info_open	ppp_api.c	/^int ppp_info_open()$/;"	f
+ppp_on_dial	ppp_api.c	/^int ppp_on_dial(char *dialno)$/;"	f
+ppp_open	ppp_api.c	/^int ppp_open()$/;"	f
+ppp_options	ppp_api.c	/^int  ppp_options(char *userid,char *password)$/;"	f
+ppp_options_ruim	ppp_api.c	/^int  ppp_options_ruim(char *userid,char *password)$/;"	f
+ppp_pstn	ppp_api.c	/^int ppp_pstn(char *dialno,char *userid,char *password,char *localip,char *remoteip,char *netmask)$/;"	f
+pppdial_cdma	ppp_api.c	/^int  pppdial_cdma(char *dialno)$/;"	f
+pppdial_gprs	ppp_api.c	/^int pppdial_gprs(char *dialno)  $/;"	f
+pppondial_pstn	ppp_api.c	/^int pppondial_pstn(char *dialno)$/;"	f
+prepare_bmp	print.c	/^int prepare_bmp(unsigned char *bmpbuf,unsigned char *data,int len)$/;"	f
+print_bill1	print.c	/^int print_bill1 (void)$/;"	f
+print_bill2	print.c	/^int print_bill2 (void)$/;"	f
+printer_test	print.c	/^int printer_test(void)$/;"	f
+ramdisk_type	log.c	/^int ramdisk_type;short numofscroll=0;$/;"	v
+read_from_modem	V91Modem.c	/^int read_from_modem(char *buffer,int no_of_bytes,int timeout)$/;"	f
+read_from_modem	modem.c	/^int read_from_modem(char *buffer,int no_of_bytes,int timeout)$/;"	f
+read_from_modem_without_signal	V91Modem.c	/^int read_from_modem_without_signal(char *buffer,int no_of_bytes,int timeout)$/;"	f
+read_from_modem_without_signal	modem.c	/^int read_from_modem_without_signal(char *buffer,int no_of_bytes,int timeout)$/;"	f
+read_track1	magnetic_head.c	/^int read_track1()$/;"	f
+read_track2	magnetic_head.c	/^int read_track2()$/;"	f
+read_track3	magnetic_head.c	/^int read_track3()$/;"	f
+recordno	sam.c	/^int recordno=0;$/;"	v
+recordno1	ifd.c	/^int recordno1=0;$/;"	v
+result	ppp_api.c	/^int result;$/;"	v
+ret	usb.c	/^int ret;$/;"	v
+returncheck	print.c	/^int returncheck(int r)$/;"	f
+rfid_test	rfid.c	/^int rfid_test ( void )$/;"	f
+rlen	ifd.c	/^static int rlen=0;$/;"	v	file:
+rlen	sam.c	/^static int rlen=0;$/;"	v	file:
+rootfs_details	imagesinfo.c	/^int rootfs_details(char *data)$/;"	f
+rtrn	sdcard.c	/^static int rtrn=0;$/;"	v	file:
+sam_test	sam.c	/^int sam_test() $/;"	f
+scan_barcode	barcode.c	/^int scan_barcode()$/;"	f
+scroll_menu	scroll_menu.c	/^int scroll_menu(MENU_T *menu,int *selItem,int acceptKbdEvents)$/;"	f
+sd_download_rs232	sdcard.c	/^int sd_download_rs232 (void)$/;"	f
+sd_upload_download_rs232	sdcard.c	/^int sd_upload_download_rs232(void)$/;"	f
+sd_upload_rs232	sdcard.c	/^int sd_upload_rs232 (void)$/;"	f
+sdcard	sdcard.c	/^int  sdcard ( void )$/;"	f
+serial_console	console.c	/^int serial_console(void)$/;"	f
+set_gateway	ethernet.c	/^int set_gateway()$/;"	f
+set_ip	ethernet.c	/^int set_ip (void)$/;"	f
+set_pri_dns	ethernet.c	/^int set_pri_dns()$/;"	f
+set_sec_dns	ethernet.c	/^int set_sec_dns()$/;"	f
+set_subnet_mask	ethernet.c	/^int set_subnet_mask (void)$/;"	f
+setmodemparams	V91Modem.c	/^void setmodemparams(int baudrate) \/* setup serial port *\/$/;"	f
+setmodemparams	modem.c	/^void setmodemparams(int baudrate) \/* setup serial port *\/$/;"	f
+sim_status	gsm_gprs.c	/^char sim_status=0; \/\/ sim status flag$/;"	v
+sim_status_test	gsm_gprs.c	/^ int sim_status_test (void)$/;"	f
+status	ppp_api.c	/^int status = NOTCONNECTED ;$/;"	v
+temp	ifd.c	/^ unsigned int temp;$/;"	m	union:__anon2	file:
+temp	sam.c	/^	unsigned int temp;$/;"	m	union:__anon5	file:
+time_setting	setup.c	/^int time_setting(struct tm *curt)$/;"	f
+timeout	gsm_gprs.c	/^                 char timeout[8];$/;"	m	struct:__anon1	file:
+timeoutflag	ppp_api.c	/^sig_atomic_t timeoutflag=0;$/;"	v
+uc	ifd.c	/^   } uc;$/;"	m	union:__anon2	typeref:struct:__anon2::__anon3	file:
+uc	sam.c	/^	} uc;$/;"	m	union:__anon5	typeref:struct:__anon5::__anon6	file:
+ui	ifd.c	/^} ui;$/;"	v	typeref:union:__anon2
+ui	sam.c	/^} ui;$/;"	v	typeref:union:__anon5
+uid	machineid.c	/^int uid(unsigned char *buff)$/;"	f
+usb_console	console.c	/^int usb_console(void)$/;"	f
+usb_detect	usb.c	/^int usb_detect (void)$/;"	f
+usb_download_rs232	massstorage.c	/^int usb_download_rs232 (void)$/;"	f
+usb_test	usb_test.c	/^int usb_test(void)$/;"	f
+usb_upload_download_rs232	massstorage.c	/^int usb_upload_download_rs232(void)$/;"	f
+usb_upload_rs232	massstorage.c	/^int usb_upload_rs232 (void)$/;"	f
+usba	usb.c	/^static int usba = 1;$/;"	v	file:
+usba_test	usb.c	/^int usba_test (void)$/;"	f
+usbb	usb.c	/^static int usbb = 1;$/;"	v	file:
+usbmount	usb_test.c	/^int usbmount=0;$/;"	v
+username	gsm_gprs.c	/^                 char username[32];$/;"	m	struct:__anon1	file:
+versioninfo	version.c	/^int versioninfo(void)$/;"	f
+visb_bmp	print.c	/^unsigned char visb_bmp[]=$/;"	v
+wakeup	wifi.c	/^void wakeup(int sig_num)$/;"	f
+wbuf	ppp_api.c	/^char wbuf[255]= "" ;$/;"	v
+wifi	wifi.c	/^wifi()$/;"	f
+wifi_close	wifi.c	/^int wifi_close()$/;"	f
+wifi_disconnect	wifi.c	/^int wifi_disconnect()$/;"	f
+write_to_modem	V91Modem.c	/^int write_to_modem(char *buffer,int no_of_bytes)$/;"	f
+write_to_modem	modem.c	/^int write_to_modem(char *buffer,int no_of_bytes)$/;"	f

@@ -1,0 +1,12 @@
+
+
+
+1. Create a server with a socket and listen to the clients 
+2. proceed with the app
+3. get the user details or pump ID and no of transactions required
+4. now send the request to the nodeJS with PUMP ID or user's details to fetch data
+5. Receive the data from nodeJS and give to the app
+6. Print the data received and send an acknowledgement back to the nodeJS for Successfull or failure status from printer
+7. if out of paper send some data to lock all DUs
+8. Return to the main menu app
+
