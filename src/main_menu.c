@@ -27,6 +27,11 @@ struct pos_details
 	char pump_id[10];
 	char vehicle_no[15];
 	char mobile_no[15];
+	char fuel_type[10];
+	char du_no[10];
+	char nozzel_no[10];
+	char vehicle_type[20];
+	char bill_type[20];
 };
 struct pos_details pos;
 
