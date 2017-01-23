@@ -1,0 +1,42 @@
+
+--------------------------------------------------------------- 21-Jan-2017
+
+1. Create a server with a socket and listen to the clients 
+2. proceed with the app
+3. get the user details or pump ID and no of transactions required
+4. now send the request to the nodeJS with PUMP ID or user's details to fetch data
+5. Receive the data from nodeJS and give to the app
+6. Print the data received and send an acknowledgement back to the nodeJS for Successfull or failure status from printer
+7. if out of paper send some data to lock all DUs
+8. Return to the main menu app
+
+
+
+
+
+--------------------------------------------------------------- 22-Jan-2017
+
+1. Transaction based on PUMP ID (First)
+2. Print last transaction only
+3. Put up a request to nodeJS with PUMP id and No of transactions(Mostly Last transaction)
+4. Receive the data from nodeJS, form into proper structure and give to print( Take dummy data as of now)
+5. Send a successful print status to nodeJS
+6. If fails to print, check whether printer is out of paper, send appropriate signal to nodeJS and ask to LOCK DUs.
+7. Return to main menu
+8. Keep the Wifi plug n play from keypad.
+
+//TODO
+1. Implement server or client code
+2. JSON parsing or String manipulations
+
+//TODO
+9. Add IOCL logo to print
+
+//Completed
+Printer:
+1. Opening Printer
+2. Checking printer status for Out of Paper
+3. Print
+4. Checking printer status for Next Print 
+5. Closing Printer
+ 
